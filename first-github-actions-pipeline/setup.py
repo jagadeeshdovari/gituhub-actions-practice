@@ -1,8 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="student-management",
     version="1.0.0",
+    description="Student Management Application",
     py_modules=["app"],
-    install_requires=[],
+    python_requires=">=3.8",
 )
